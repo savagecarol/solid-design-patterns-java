@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/bad/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/bad/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/bad/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/CookableFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/Salad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/BillingStaff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/ChefStaff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/OrderStaff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/solid/openClosedPrinciple/good/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/solid/openClosedPrinciple/good/Pizza.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -72,11 +73,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="solid.interfaceSegregation.good" />
       <recent name="solid.liskovSubstitution.bad" />
       <recent name="solid.openClosedPrinciple.bad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (5)">
+  <component name="RunManager" selected="Application.Restaurant (1)">
+    <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solid.interfaceSegregation.good.Restaurant" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solid.interfaceSegregation.good.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solid.openClosedPrinciple.bad.Restaurant" />
       <module name="designpattern" />
@@ -103,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.liskovSubstitution.bad.Restaurant" />
-      <module name="designpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solid.liskovSubstitution.bad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Restaurant (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solid.liskovSubstitution.good.Restaurant" />
       <module name="designpattern" />
@@ -130,11 +132,11 @@
       </method>
     </configuration>
     <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.singleResponsibility.good.Restaurant" />
+      <option name="MAIN_CLASS_NAME" value="solid.liskovSubstitution.bad.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.singleResponsibility.good.*" />
+          <option name="PATTERN" value="solid.liskovSubstitution.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (1)" />
         <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (4)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (2)" />
-        <item itemvalue="Application.Restaurant" />
       </list>
     </recent_temporary>
   </component>
