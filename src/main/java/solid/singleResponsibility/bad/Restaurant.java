@@ -1,9 +1,10 @@
 package solid.singleResponsibility.bad;
 
-// one man is doing all these things
+
+// STORY 1 -  only one person is working in the store
 public class Restaurant {
     public static void main(String[] args) {
-        // common service
+        // common service - 1 person doing all the work
         CommonService commonService = new CommonService();
         commonService.kitchenWork();
         commonService.cookFood();
