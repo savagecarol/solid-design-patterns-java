@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/openClosedPrinciple/bad/KitchenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/openClosedPrinciple/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/openClosedPrinciple/good/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/openClosedPrinciple/good/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/openClosedPrinciple/good/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/openClosedPrinciple/good/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/openClosedPrinciple/good/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solid/singleResponsibility/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solid/singleResponsibility/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/bad/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/bad/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/bad/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/CookableFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/liskovSubstitution/good/Salad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/solid/openClosedPrinciple/good/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/solid/openClosedPrinciple/good/Pizza.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +44,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="37ZkAxNNqeyICZniMYFHRlT190h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,23 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="solid.liskovSubstitution.bad" />
       <recent name="solid.openClosedPrinciple.bad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (3)">
-    <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.singleResponsibility.bad.Restaurant" />
-      <module name="designpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solid.singleResponsibility.bad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Restaurant (5)">
     <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solid.openClosedPrinciple.bad.Restaurant" />
       <module name="designpattern" />
@@ -108,6 +103,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Restaurant (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solid.liskovSubstitution.bad.Restaurant" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solid.liskovSubstitution.bad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Restaurant (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solid.liskovSubstitution.good.Restaurant" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solid.liskovSubstitution.good.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solid.singleResponsibility.good.Restaurant" />
       <module name="designpattern" />
@@ -123,10 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (5)" />
+        <item itemvalue="Application.Restaurant (4)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (2)" />
         <item itemvalue="Application.Restaurant" />
-        <item itemvalue="Application.Restaurant (1)" />
       </list>
     </recent_temporary>
   </component>
