@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/bad/BillingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingEnumService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingServiceEagerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingServiceFinalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingServiceLazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingServiceSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/bad/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/bad/Pizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/bad/Restaurant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/Burger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/Food.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/Pizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/Restaurant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bad/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bad/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/good/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/good/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/good/KitchenFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/good/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/good/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solid/dependencyInversion/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solid/dependencyInversion/good/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="creational.factory.good" />
       <recent name="creational.singleton.good" />
       <recent name="creational.singleton.bad" />
       <recent name="solid.dependencyInversion.good" />
       <recent name="solid.interfaceSegregation.good" />
-      <recent name="solid.liskovSubstitution.bad" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Restaurant (2)">
