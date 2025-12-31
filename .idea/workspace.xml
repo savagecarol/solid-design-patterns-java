@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/bad/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/ComplexMeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/bad/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/good/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/good/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/builder/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/builder/good/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +71,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/bad" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="creational.prototype.good" />
       <recent name="creational.builder.good" />
       <recent name="creational.abstractFactory.bad" />
       <recent name="creational.abstractFactory.good" />
       <recent name="creational.factory.good" />
-      <recent name="creational.singleton.good" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Restaurant (1)">

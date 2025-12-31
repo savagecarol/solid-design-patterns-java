@@ -13,6 +13,7 @@ package creational.builder.good;
  * Without Builder, constructor becomes confusing.
  * With Builder, object is built step by step in readable way.
  *
+ * lombok - @Builder annotation
  */
 public class Restaurant {
 
