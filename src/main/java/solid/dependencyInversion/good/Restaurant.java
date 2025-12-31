@@ -1,7 +1,7 @@
 package solid.dependencyInversion.good;
 
 //High-level modules should not depend on low-level modules. Both should depend on abstractions.
-
+// order service will take the string "pizza" or "burger" not actually start making it -> it will send it to food
 public class Restaurant {
         public static void main(String[] args) {
             System.out.println("Customer enters restaurant");

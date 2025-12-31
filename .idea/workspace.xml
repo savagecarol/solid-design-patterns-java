@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/dependencyInversion/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/dependencyInversion/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/bad/BillingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingEnumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingServiceEagerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingServiceFinalSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingServiceLazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/BillingServiceSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/bad/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/bad/Pizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/bad/Restaurant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/Burger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/Food.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/Pizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/solid/dependencyInversion/good/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solid/dependencyInversion/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solid/dependencyInversion/good/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +79,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="creational.singleton.good" />
+      <recent name="creational.singleton.bad" />
       <recent name="solid.dependencyInversion.good" />
       <recent name="solid.interfaceSegregation.good" />
       <recent name="solid.liskovSubstitution.bad" />
-      <recent name="solid.openClosedPrinciple.bad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (1)">
+  <component name="RunManager" selected="Application.Restaurant (2)">
     <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solid.interfaceSegregation.good.Restaurant" />
       <module name="designpattern" />
@@ -83,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.openClosedPrinciple.bad.Restaurant" />
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.openClosedPrinciple.bad.*" />
+          <option name="PATTERN" value="creational.singleton.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.openClosedPrinciple.good.Restaurant" />
+    <configuration name="Restaurant (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solid.dependencyInversion.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.openClosedPrinciple.good.*" />
+          <option name="PATTERN" value="solid.dependencyInversion.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +140,11 @@
       </method>
     </configuration>
     <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.liskovSubstitution.bad.Restaurant" />
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.bad.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.liskovSubstitution.bad.*" />
+          <option name="PATTERN" value="creational.singleton.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (2)" />
+        <item itemvalue="Application.Restaurant" />
+        <item itemvalue="Application.Restaurant (4)" />
         <item itemvalue="Application.Restaurant (1)" />
         <item itemvalue="Application.Restaurant (5)" />
-        <item itemvalue="Application.Restaurant (4)" />
-        <item itemvalue="Application.Restaurant (3)" />
-        <item itemvalue="Application.Restaurant (2)" />
       </list>
     </recent_temporary>
   </component>
