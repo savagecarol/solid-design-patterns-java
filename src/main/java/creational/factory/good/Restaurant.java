@@ -1,7 +1,5 @@
 package creational.factory.good;
 
-import creational.factory.bad.Burger;
-import creational.factory.bad.Pizza;
 
 /**
  Factory Pattern creates objects without exposing the creation logic to the client.
@@ -17,5 +15,5 @@ public class Restaurant {
             String order = "Pizza";
             KitchenFactory.createFood(order).prepare(); // now kitchen is creating food // abstrated from user
         }
-    }
 }
+
