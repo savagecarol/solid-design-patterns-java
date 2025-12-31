@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/bad/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/BillingStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/ChefStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/OrderStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/solid/interfaceSegregation/good/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/dependencyInversion/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/dependencyInversion/good/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="solid.dependencyInversion.good" />
       <recent name="solid.interfaceSegregation.good" />
       <recent name="solid.liskovSubstitution.bad" />
       <recent name="solid.openClosedPrinciple.bad" />
