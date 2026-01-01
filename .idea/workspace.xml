@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/RestaurantFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/bad/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/bad/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/good/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +72,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/bad" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="structural.proxy.good" />
       <recent name="structural.fascade.good" />
       <recent name="structural.decorator.bad" />
       <recent name="structural.bridge.bad" />
       <recent name="creational.prototype.good" />
-      <recent name="creational.builder.good" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Restaurant (5)">
