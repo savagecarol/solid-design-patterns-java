@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/bad/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/bad/PizzaWithCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/bad/PizzaWithOlives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Olives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/RestaurantFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/good/Waiter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adpator/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adpator/bad/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/creational/abstractFactory/good" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/structural/fascade/good" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,15 +73,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/structural/fascade/good" />
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/good" />
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/bad" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="structural.fascade.good" />
       <recent name="structural.decorator.bad" />
       <recent name="structural.bridge.bad" />
       <recent name="creational.prototype.good" />
       <recent name="creational.builder.good" />
-      <recent name="creational.abstractFactory.bad" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Restaurant (5)">
