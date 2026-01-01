@@ -21,7 +21,7 @@ public class Restaurant {
         billing.payInCash(500);
         // New payment system - incompatible
         OnlinePaymentService online = new OnlinePaymentService();
-        online.payOnline(600); // supports only online but i need machine to support
+        online.payOnline(600); // supports only online but i need machine to convert to cash
         // billing.payInCash(online);  // not possible
     }
 }
