@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/OrderProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/OrderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Waiter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Restaurant.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +77,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/structural/fascade/good" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/behaviourial/command/good" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -80,32 +85,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/behaviourial/command/good" />
       <recent name="$PROJECT_DIR$/src/main/java/structural/fascade/good" />
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/good" />
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/bad" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="behaviourial.command.good" />
       <recent name="structural.flyweight.good" />
       <recent name="structural.composite.good" />
       <recent name="structural.proxy.good" />
       <recent name="structural.fascade.good" />
-      <recent name="structural.decorator.bad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (3)">
-    <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.bad.Restaurant" />
-      <module name="designpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.composite.bad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Restaurant (5)">
     <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.flyweight.good.Restaurant" />
       <module name="designpattern" />
@@ -145,6 +138,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Restaurant (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial.command.good.Restaurant" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviourial.command.good.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.composite.good.Restaurant" />
       <module name="designpattern" />
@@ -160,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (4)" />
         <item itemvalue="Application.Restaurant (2)" />
         <item itemvalue="Application.Restaurant" />
-        <item itemvalue="Application.Restaurant (1)" />
       </list>
     </recent_temporary>
   </component>
