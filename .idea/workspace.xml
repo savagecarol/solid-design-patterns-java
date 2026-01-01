@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/bad/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/good/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/good/PizzaOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/OrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Waiter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +40,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3c7d3925-a46e-4904-a584-5b0ea895ca5c" />
+        <option name="url" value="https://github.com/savagecarol/solid-design-patterns-java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,7 +92,7 @@
       <recent name="structural.decorator.bad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (2)">
+  <component name="RunManager" selected="Application.Restaurant (3)">
     <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.composite.bad.Restaurant" />
       <module name="designpattern" />
@@ -107,11 +120,11 @@
       </method>
     </configuration>
     <configuration name="Restaurant (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.bridge.good.Restaurant" />
+      <option name="MAIN_CLASS_NAME" value="behaviourial.chainOfRespnosibility.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.bridge.good.*" />
+          <option name="PATTERN" value="behaviourial.chainOfRespnosibility.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.decorator.good.Restaurant" />
+    <configuration name="Restaurant (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial.chainOfRespnosibility.bad.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.decorator.good.*" />
+          <option name="PATTERN" value="behaviourial.chainOfRespnosibility.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (3)" />
+        <item itemvalue="Application.Restaurant (4)" />
         <item itemvalue="Application.Restaurant (2)" />
         <item itemvalue="Application.Restaurant" />
         <item itemvalue="Application.Restaurant (1)" />
-        <item itemvalue="Application.Restaurant (5)" />
-        <item itemvalue="Application.Restaurant (3)" />
       </list>
     </recent_temporary>
   </component>
