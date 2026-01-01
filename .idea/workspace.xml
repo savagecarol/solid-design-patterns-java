@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/bad/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/bad/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/bad/NonVegMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/bad/VegMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/facade/bad/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/bridge/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/bad/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural/bridge/bad/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/bridge/bad/Restaurant.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +76,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/bad" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="structural.composite.good" />
       <recent name="structural.proxy.good" />
       <recent name="structural.fascade.good" />
       <recent name="structural.decorator.bad" />
       <recent name="structural.bridge.bad" />
-      <recent name="creational.prototype.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (5)">
-    <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.adpator.good.Restaurant" />
+  <component name="RunManager" selected="Application.Restaurant">
+    <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.composite.bad.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.adpator.good.*" />
+          <option name="PATTERN" value="structural.composite.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +137,11 @@
       </method>
     </configuration>
     <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.adpator.bad.Restaurant" />
+      <option name="MAIN_CLASS_NAME" value="structural.composite.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.adpator.bad.*" />
+          <option name="PATTERN" value="structural.composite.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant" />
+        <item itemvalue="Application.Restaurant (1)" />
         <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (4)" />
-        <item itemvalue="Application.Restaurant (2)" />
-        <item itemvalue="Application.Restaurant" />
       </list>
     </recent_temporary>
   </component>

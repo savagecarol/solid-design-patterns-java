@@ -3,6 +3,8 @@ package structural.bridge.bad;
 /**
  * Bridge separates abstraction from implementation.
  *
+ * // combination
+ *
  * think like cross multiplication
  *
  * food          type
