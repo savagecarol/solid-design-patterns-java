@@ -13,6 +13,7 @@ package behaviourial.mediator.bad;
  *      waiter :: directly talk to kitchen
  *      waiter :: directly talk to billing team
  *
+ * Mediator Pattern removes chaos by introducing a central coordinator for communication.
  */
 public class Restaurant {
     public static void main(String[] args) {
