@@ -1,6 +1,10 @@
 package behaviourial.iterator.advance;
 
 /**
+ *
+ * Iterator Pattern lets us traverse even complex tree structures
+ * in a controlled way without exposing their internal representation.
+ *
  * Main Menu
  *  ├── Veg Menu
  *  │    ├── Pizza
