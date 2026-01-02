@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/bad/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/CookingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/DeliveredState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/NewOrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/OrderContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/OrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/ReadyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/bad/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/OrderEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/OrderMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/iinterpretor/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iinterpretor/good/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/iinterpretor/bad/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/iinterpretor/bad/Restaurant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/iinterpretor/good/OrExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/iinterpretor/good/OrExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/iinterpretor/good/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/iinterpretor/good/Restaurant.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
