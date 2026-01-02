@@ -53,7 +53,8 @@ public class Restaurant {
         editor.save(order.save()); // state :: 2 => to caretaker
         order.show();
 
-        order.update("Burger", true, true);  // state :: 3 => to caretaker
+        order.update("Burger", true, true);
+        editor.save(order.save()); // state :: 3 => to caretaker
         order.show();
 
         System.out.println("\nUndo last change:");
