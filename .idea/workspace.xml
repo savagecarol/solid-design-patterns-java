@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/bad/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/OrderCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/advance/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/advance/MenuBFSIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/advance/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/advance/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/advance/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/bad/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/good/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/good/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/good/MenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/good/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Handler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviourial/chainOfRespnosibility/good/Restaurant.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +87,27 @@
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/bad" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="behaviourial.iterator.advance" />
       <recent name="behaviourial.command.good" />
       <recent name="structural.flyweight.good" />
       <recent name="structural.composite.good" />
       <recent name="structural.proxy.good" />
-      <recent name="structural.fascade.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (5)">
+  <component name="RunManager" selected="Application.Restaurant (1)">
+    <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial.iterator.advance.Restaurant" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviourial.iterator.advance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.flyweight.good.Restaurant" />
       <module name="designpattern" />
@@ -151,26 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.good.Restaurant" />
-      <module name="designpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.composite.good.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (1)" />
         <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (4)" />
         <item itemvalue="Application.Restaurant (2)" />
-        <item itemvalue="Application.Restaurant" />
       </list>
     </recent_temporary>
   </component>
