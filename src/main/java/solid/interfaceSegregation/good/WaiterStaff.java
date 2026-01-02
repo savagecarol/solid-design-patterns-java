@@ -1,6 +1,6 @@
 package solid.interfaceSegregation.good;
 
 
-public interface OrderStaff {
+public interface WaiterStaff {
     void takeOrder();
 }

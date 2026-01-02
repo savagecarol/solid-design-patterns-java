@@ -8,11 +8,11 @@ package solid.liskovSubstitution.good;
 public class Restaurant {
     public static void main(String[] args) {
         System.out.println("Lets order");
-        Pizza pizza = new Pizza();
+        CookableFood pizza = new Pizza(); // FOOD , Cookable
         pizza.getName(); // yes we can serve pizza
         pizza.prepare(); // it will actually make pizza
 
-        Salad salad = new Salad();
+        Food salad = new Salad(); // FOOD class
         salad.getName(); // yes we can serve salad
 
     }

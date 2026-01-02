@@ -5,7 +5,7 @@ package solid.singleResponsibility.bad;
 public class Restaurant {
     public static void main(String[] args) {
         // common service - 1 person doing all the work
-        CommonService commonService = new CommonService();
+        CommonService commonService = new CommonService(); // common worker
         commonService.kitchenWork();
         commonService.cookFood();
         commonService.billing();

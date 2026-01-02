@@ -1,6 +1,6 @@
 package solid.interfaceSegregation.bad;
 
-public class Order implements Staff{
+public class Waiter implements Staff{
     @Override
     public void takeOrder() {
         System.out.println("I can take order");

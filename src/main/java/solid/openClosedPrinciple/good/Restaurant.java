@@ -15,5 +15,10 @@ public class Restaurant {
         // we pass both the order to kitchen
         kitchen.cook(pizza);
         kitchen.cook(burger);
+
+        Food nachos = new Nachos();
+        kitchen.cook(nachos);
+
+
     }
 }

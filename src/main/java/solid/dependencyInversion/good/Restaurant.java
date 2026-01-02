@@ -7,7 +7,7 @@ public class Restaurant {
             System.out.println("Customer enters restaurant");
 
             Food pizza = new Pizza();
-            OrderService orderService1 = new OrderService(pizza);
+            OrderService orderService1 = new OrderService(pizza); // dont know it is pizza or burger it is taking it as food
             orderService1.processOrder();
 
             Food burger = new Burger();

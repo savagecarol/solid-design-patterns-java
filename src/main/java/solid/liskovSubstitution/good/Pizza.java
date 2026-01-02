@@ -1,6 +1,6 @@
 package solid.liskovSubstitution.good;
 
-public class Pizza implements Food,CookableFood{
+public class Pizza implements CookableFood{
     @Override
     public void prepare() {
         System.out.println("Pizza");
