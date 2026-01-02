@@ -22,6 +22,7 @@ package behaviourial.visitor.good;
  *   Each operation is encapsulated in a separate visitor.
  *   Adding a new operation means creating a new visitor class only.
  *   This keeps the design open for extension, closed for modification.
+ *
  */
 public class restaurant {
 
