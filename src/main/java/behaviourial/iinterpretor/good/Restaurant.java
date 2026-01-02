@@ -36,11 +36,15 @@ public class Restaurant {
 
             Expression pizzaAndCoke = new AndExpression(pizza, coke);
             Expression burgerOrPizza = new OrExpression(burger, pizza);
+            Expression burgerOrPizzaAndCoke = new AndExpression(new OrExpression(burger, pizza), coke);
 
             System.out.println("Order 1:");
             pizzaAndCoke.interpret();
 
             System.out.println("\nOrder 2:");
             burgerOrPizza.interpret();
+
+            System.out.println("\nOrder 3:");
+            burgerOrPizzaAndCoke.interpret();
         }
 }
