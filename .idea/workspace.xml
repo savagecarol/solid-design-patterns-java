@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/observer/bad/Billing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/observer/bad/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/observer/bad/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/observer/bad/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/observer/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/observer/good/OrderObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/observer/good/OrderSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/observer/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iinterpretor/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iinterpretor/good/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/mediator/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/mediator/bad/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,33 +78,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/creational/abstractFactory/bad" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="behaviourial.iinterpretor.good" />
       <recent name="behaviourial.observer.good" />
       <recent name="behaviourial.mediator.good" />
       <recent name="behaviourial.iterator.advance" />
       <recent name="behaviourial.command.good" />
-      <recent name="structural.flyweight.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (1)">
+  <component name="RunManager" selected="Application.Restaurant">
     <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behaviourial.iterator.advance.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behaviourial.iterator.advance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.flyweight.good.Restaurant" />
-      <module name="designpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.flyweight.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial.iinterpretor.good.Restaurant" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviourial.iinterpretor.good.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant" />
         <item itemvalue="Application.Restaurant (1)" />
         <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (4)" />
-        <item itemvalue="Application.Restaurant (2)" />
       </list>
     </recent_temporary>
   </component>
