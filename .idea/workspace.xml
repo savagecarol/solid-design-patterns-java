@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/template/bad/BurgerOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/template/bad/PizzaOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/template/bad/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/template/good/BurgerOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/template/good/FoodOrderTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/template/good/PizzaOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/template/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/strategy/bad/BillingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/strategy/bad/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/strategy/good/BillingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/strategy/good/CardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/strategy/good/CashPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/strategy/good/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/strategy/good/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviourial/strategy/good/UpiPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
