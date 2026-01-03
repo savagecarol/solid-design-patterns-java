@@ -25,19 +25,19 @@ public class Restaurant {
                 .drink("Coke")
                 .fries(true)
                 .extraCheese(true)
-                .build();
+                .build(); // MEAL
         meal1.showMeal();
 
         Meal meal2 = new Meal.Builder()
                 .food("Pizza")
-                .drink("Coke")
-                .extraCheese(true)
+                .fries(true)
                 .build();
         meal2.showMeal();
 
 
         ComplexMeal meal3 = new ComplexMeal.Builder()
-                .pizza(true)   // Pizza with extra cheese
+                .burger(true)
+                .pizza(true)// Pizza with extra cheese
                 .coke()        // Drink
                 .build();
         meal3.showMeal();

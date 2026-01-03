@@ -1,12 +1,16 @@
 package creational.abstractFactory.bad;
 
+
 /**
- Factory Pattern creates objects without exposing the creation logic to the client.
- story - guy come and order "Pizza" and itself at the same time guy who is taking order started making food infront of you
- there is no kitchen
- if I add one more food item then we have to add one more if condition
- customer should not know recipes - ingredients process of pizza there is no abstraction
+ Abstract Factory provides an interface to create families of related objects without
+ specifying their concrete classes.
+
+ story
+ one -> customer should not know how the food is actually created what are the ingredients process
+ second -> in my restaurant we serve two cuisine italian [pizza and coke] american [burger and coke]
+ third -> people can order separately as well like - just pizza
  */
+
 
 public class Restaurant {
     public static void main(String[] args) {
