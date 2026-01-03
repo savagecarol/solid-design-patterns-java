@@ -12,7 +12,7 @@ package creational.factory.good;
 public class Restaurant {
     public static void main(String[] args) {
              System.out.println("Customer gave order");
-            String order = "Pizza";
+            String order = "Burger";
             KitchenFactory.createFood(order).prepare(); // now kitchen is creating food // abstrated from user
         }
 }

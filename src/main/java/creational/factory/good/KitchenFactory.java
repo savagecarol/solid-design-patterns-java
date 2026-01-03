@@ -5,7 +5,7 @@ public class KitchenFactory {
     // we dont need object of KitchenFactory we need it to create objects for us
     private KitchenFactory(){}
 
-    public static Food createFood(String type) {
+    public static Food createFood(String type) { // FOOD
         if (type.equalsIgnoreCase("Pizza")) {
             return new Pizza();
         } else if (type.equalsIgnoreCase("Burger")) {
