@@ -13,7 +13,7 @@ public class BillingService {
     private BillingService(){
     }
 
-    private static BillingService instance = null;
+    private static BillingService instance = null; // null
 
     public static BillingService getInstance(){
         if(instance  == null) {

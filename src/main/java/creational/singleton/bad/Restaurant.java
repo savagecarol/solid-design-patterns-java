@@ -7,11 +7,11 @@ package creational.singleton.bad;
 public class Restaurant {
     public static void main(String[] args) {
             System.out.println("Customer 1 comes and give order to waiter 1 amount 100");
-            BillingService billingServiceWaiter1 = new BillingService();
+            BillingService billingServiceWaiter1 = new BillingService(); // billingservice 1
             billingServiceWaiter1.addInTotal(100);
 
             System.out.println("Customer 2 comes and give order to waiter 2 amount 200");
-            BillingService billingServiceWaiter2 = new BillingService();
+            BillingService billingServiceWaiter2 = new BillingService(); // billingservice 2
             billingServiceWaiter2.addInTotal(200);
 
             System.out.println("Customer 3 comes and give order to waiter 1 amount 50");
