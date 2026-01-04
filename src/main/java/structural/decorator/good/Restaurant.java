@@ -24,8 +24,13 @@ package structural.decorator.good;
 public class Restaurant {
     public static void main(String[] args) {
         Food pizza = new Pizza(); // add 200
-        pizza = new Cheese(pizza); // add 30
-        pizza = new Olives(pizza); // add 20
+        System.out.println("Total Cost: " + pizza.cost()); // 200 pizza
+        pizza = new Cheese(pizza); // add 50 --> Cheese class i am passing pizza pizza + cheese
+        System.out.println("Total Cost: " + pizza.cost());
+        pizza = new Olives(pizza); // add 80 --> pizza + cheese + oilve
+        System.out.println("Total Cost: " + pizza.cost());
+        pizza = new Cheese(pizza); // 50 more pizza + cheese + cheese + olive
+        System.out.println("Total Cost: " + pizza.cost());
         System.out.println(pizza.description()); // add pizza + cheese + olives
         System.out.println("Total Cost: " + pizza.cost());
     }

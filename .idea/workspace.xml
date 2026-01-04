@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adpator/good/BillingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adpator/good/BillingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adpator/good/OldBillingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adpator/good/OldBillingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adpator/good/PaymentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adpator/good/PaymentAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/bridge/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/bad/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/bridge/good/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/bridge/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/bad/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/bad/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/good/ToppingDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/ToppingDecorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +86,13 @@
       <recent name="behaviourial.command.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (5)">
-    <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.builder.bad.Restaurant" />
+  <component name="RunManager" selected="Application.Restaurant (1)">
+    <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.decorator.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.builder.bad.*" />
+          <option name="PATTERN" value="structural.decorator.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +140,11 @@
       </method>
     </configuration>
     <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.good.Restaurant" />
+      <option name="MAIN_CLASS_NAME" value="structural.decorator.bad.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.factory.good.*" />
+          <option name="PATTERN" value="structural.decorator.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (1)" />
+        <item itemvalue="Application.Restaurant" />
         <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (4)" />
-        <item itemvalue="Application.Restaurant (2)" />
-        <item itemvalue="Application.Restaurant" />
       </list>
     </recent_temporary>
   </component>

@@ -10,3 +10,8 @@ public abstract class ToppingDecorator implements Food {
         this.food = food;
     }
 }
+
+/**
+ *  1. abstract topping class
+ *  2. implement that food interface
+ */
