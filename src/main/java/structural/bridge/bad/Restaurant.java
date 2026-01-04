@@ -7,10 +7,11 @@ package structural.bridge.bad;
  *
  * think like cross multiplication
  *
- * food          type
+ * food  (abstraction)        type (implementation)
  * burger        veg
  * pizza         non-veg
  * pasta         vegan
+ * nachos
  *
  * total number of classes we will make = 3*3 = 9
  * total number of classes we will make if we add one more type = 3*4 = 12

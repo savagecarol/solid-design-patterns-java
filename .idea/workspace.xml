@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/good/Extra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/good/MealDeepCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/good/MealShallow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/good/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adpator/good/BillingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adpator/good/BillingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adpator/good/OldBillingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adpator/good/OldBillingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adpator/good/PaymentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adpator/good/PaymentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/bridge/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/bad/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/bridge/good/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/bridge/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,20 +89,7 @@
       <recent name="behaviourial.command.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (3)">
-    <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.good.Restaurant" />
-      <module name="designpattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.singleton.good.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Restaurant (5)">
     <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.builder.bad.Restaurant" />
       <module name="designpattern" />
@@ -140,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Restaurant (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.adpator.good.Restaurant" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.adpator.good.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.factory.good.Restaurant" />
       <module name="designpattern" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (4)" />
         <item itemvalue="Application.Restaurant (2)" />
         <item itemvalue="Application.Restaurant" />
-        <item itemvalue="Application.Restaurant (1)" />
       </list>
     </recent_temporary>
   </component>

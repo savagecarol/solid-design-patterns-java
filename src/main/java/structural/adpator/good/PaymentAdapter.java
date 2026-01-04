@@ -1,5 +1,9 @@
 package structural.adpator.good;
 
+/**
+ *  1. implement the interface
+ *  2. we are going to the make the variable of incompatible service and pass it into the constructor
+ */
 public class PaymentAdapter implements BillingSystem {
 
     private OnlinePaymentService onlinePayment;

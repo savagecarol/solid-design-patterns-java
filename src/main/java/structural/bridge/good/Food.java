@@ -3,8 +3,9 @@ package structural.bridge.good;
 // Food abstract class that takes veg and non veg types
 // and send to prepare
 
+
 public abstract class Food {
-    public FoodType type;
+    public FoodType type; // (veg or nen veg)
     public Food(FoodType type) {
         this.type = type;
     }

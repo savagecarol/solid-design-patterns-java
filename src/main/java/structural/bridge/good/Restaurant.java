@@ -27,9 +27,8 @@ package structural.bridge.good;
  * food          type
  * burger        veg
  * pizza         non-veg
- * pasta         vegan
  *
- * 3 classes of food  + [BRIDGE CLASS] + 3 types  = 7
+ * 2 classes of food  + 2 types  = 5
  *
  * lot better than previous example:
  *
