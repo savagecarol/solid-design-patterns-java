@@ -19,7 +19,8 @@ package structural.facade.good;
  */
 public class Restaurant {
     public static void main(String[] args) {
-        RestaurantFacade facade = new RestaurantFacade();
+        RestaurantFacade facade = new RestaurantFacade(); // counter guy
         facade.serveCustomer();
+        facade.extraItems();
     }
 }

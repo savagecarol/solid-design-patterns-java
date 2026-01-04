@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/bad/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/bad/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/good/ToppingDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/good/ToppingDecorator.java" afterDir="false" />
-    </list>
+    <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +81,7 @@
       <recent name="behaviourial.command.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (1)">
+  <component name="RunManager" selected="Application.Restaurant (2)">
     <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.decorator.good.Restaurant" />
       <module name="designpattern" />
@@ -100,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.prototype.good.Restaurant" />
+    <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.facade.bad.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.prototype.good.*" />
+          <option name="PATTERN" value="structural.facade.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.builder.good.Restaurant" />
+    <configuration name="Restaurant (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.prototype.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.builder.good.*" />
+          <option name="PATTERN" value="creational.prototype.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (2)" />
         <item itemvalue="Application.Restaurant (1)" />
         <item itemvalue="Application.Restaurant" />
         <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (3)" />
-        <item itemvalue="Application.Restaurant (4)" />
       </list>
     </recent_temporary>
   </component>

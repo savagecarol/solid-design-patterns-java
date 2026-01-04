@@ -16,4 +16,7 @@ public class RestaurantFacade {
         billing.generateBill();
     }
 
+    public void extraItems() {
+        waiter.serve();
+    }
 }
