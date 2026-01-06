@@ -14,7 +14,7 @@ public class Waiter {
     public void placeOrders() {
         System.out.println("Waiter: Placing all orders.");
         for (Command command : orderList) {
-            command.execute();
+            command.execute(); // waiter is not knowing who is going to cook and what we have to cook
         }
         orderList.clear();
     }

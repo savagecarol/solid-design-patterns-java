@@ -6,19 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/bad/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/proxy/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/good/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/structural/composite/good/MenuComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/composite/good/MenuComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/structural/composite/good/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/composite/good/MenuItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/structural/composite/good/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/composite/good/Restaurant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/structural/facade/good/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/facade/good/Restaurant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/structural/facade/good/RestaurantFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/facade/good/RestaurantFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/OrderCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/OrderCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Waiter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +86,7 @@
       <recent name="behaviourial.command.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (4)">
+  <component name="RunManager" selected="Application.Restaurant (5)">
     <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.decorator.good.Restaurant" />
       <module name="designpattern" />
@@ -149,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.decorator.bad.Restaurant" />
+    <configuration name="Restaurant (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial.command.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.decorator.bad.*" />
+          <option name="PATTERN" value="behaviourial.command.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (4)" />
         <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (2)" />
         <item itemvalue="Application.Restaurant (1)" />
-        <item itemvalue="Application.Restaurant" />
       </list>
     </recent_temporary>
   </component>
