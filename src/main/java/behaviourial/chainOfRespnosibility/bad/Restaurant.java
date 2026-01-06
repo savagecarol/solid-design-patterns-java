@@ -22,10 +22,10 @@ public class Restaurant {
         System.out.println("Customer will only talk to waiter");
         System.out.println();
         Waiter waiter = new Waiter();
-        waiter.handleOrder("Drink");
+        waiter.handleOrder("Drink"); // waiter will process it
         System.out.println();
-        waiter.handleOrder("Cook Pasta");
+        waiter.handleOrder("Cook Pasta");  // chef
         System.out.println();
-        waiter.handleOrder("VIP Pizza");
+        waiter.handleOrder("VIP Pizza"); // manager
     }
 }

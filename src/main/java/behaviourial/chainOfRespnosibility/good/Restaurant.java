@@ -30,7 +30,7 @@ public class Restaurant {
     public static void main(String[] args) {
         System.out.println("Customer will only talk to waiter\n");
 
-        OrderProcessor orderProcessor = new OrderProcessor();
+        OrderProcessor orderProcessor = new OrderProcessor(); // all the story
 
         orderProcessor.processOrder("Drink");
         System.out.println();

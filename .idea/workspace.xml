@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="" />
+    <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/bad/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/chainOfRespnosibility/good/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/bad/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/good/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/proxy/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/good/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural/composite/good/MenuComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/composite/good/MenuComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural/composite/good/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/composite/good/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural/composite/good/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/composite/good/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural/facade/good/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/facade/good/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/structural/facade/good/RestaurantFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/structural/facade/good/RestaurantFacade.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/behaviourial/command/good" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -81,7 +96,7 @@
       <recent name="behaviourial.command.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant (2)">
+  <component name="RunManager" selected="Application.Restaurant (4)">
     <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.decorator.good.Restaurant" />
       <module name="designpattern" />
@@ -109,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="Restaurant (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.prototype.good.Restaurant" />
+      <option name="MAIN_CLASS_NAME" value="structural.composite.bad.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.prototype.good.*" />
+          <option name="PATTERN" value="structural.composite.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.adpator.good.Restaurant" />
+    <configuration name="Restaurant (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.composite.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.adpator.good.*" />
+          <option name="PATTERN" value="structural.composite.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (4)" />
+        <item itemvalue="Application.Restaurant (3)" />
         <item itemvalue="Application.Restaurant (2)" />
         <item itemvalue="Application.Restaurant (1)" />
         <item itemvalue="Application.Restaurant" />
-        <item itemvalue="Application.Restaurant (5)" />
-        <item itemvalue="Application.Restaurant (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +198,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/creational/prototype/good/Restaurant.java</url>
           <line>26</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/structural/composite/good/MenuItem.java</url>
+          <line>23</line>
+          <properties class="structural.composite.good.MenuItem" method="display">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

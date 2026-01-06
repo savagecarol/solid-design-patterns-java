@@ -26,7 +26,7 @@ public class Restaurant {
 
     public static void main(String[] args) {
         System.out.println("Customer come to restaurant");
-        RestaurantService waiter = new WaiterProxy();
+        RestaurantService waiter = new WaiterProxy(); // waiter proxy
         waiter.placeOrder(); // only kitchen called
         waiter.getBill();    // only billing called
     }

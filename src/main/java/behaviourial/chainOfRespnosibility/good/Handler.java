@@ -19,3 +19,4 @@ public abstract class Handler {
     public abstract void handleOrder(String order); // right now
 
 }
+

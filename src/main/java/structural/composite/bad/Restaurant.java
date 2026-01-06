@@ -18,7 +18,7 @@ import java.util.Arrays;
  *
  * customer :: want to make menu like this
  *
- * Bridge :: his is not variation like Bridge. This is hierarchy like a tree.
+ * Bridge :: it is not variation like Bridge. This is hierarchy like a tree.
  *
  */
 public class Restaurant {

@@ -33,6 +33,9 @@ public class Restaurant {
             // child  menu 1
             Menu vegMenu = new Menu("Veg Menu");
 
+            // child  menu 2
+            Menu nonVegMenu = new Menu("Non-Veg Menu");
+
 
             MenuItem pizza = new MenuItem("Pizza");
             MenuItem nachos = new MenuItem("Nachos");
@@ -49,8 +52,6 @@ public class Restaurant {
             vegMenu.add(nachos);
             vegMenu.add(burger);
 
-            // child  menu 2
-            Menu nonVegMenu = new Menu("Non-Veg Menu");
             MenuItem chickenPizza = new MenuItem("Chicken Pizza");
             MenuItem chickenBurger = new MenuItem("Chicken Burger");
 

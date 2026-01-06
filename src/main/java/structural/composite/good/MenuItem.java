@@ -3,6 +3,9 @@ package structural.composite.good;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ */
 public class MenuItem implements MenuComponent {
 
     private String name;
