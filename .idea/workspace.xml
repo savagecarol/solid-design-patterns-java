@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/OrderCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/OrderCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/command/good/Waiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/bad/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/bad/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/bad/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/bad/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/good/MenuIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/good/MenuIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/iterator/good/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

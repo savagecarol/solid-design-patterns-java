@@ -13,7 +13,7 @@ public class Menu {
         items.add("Nachos");
     }
 
-    // Exposing internal structure ❌
+    // Exposing internal structure
     public List<String> getItems() {
         return items;
     }

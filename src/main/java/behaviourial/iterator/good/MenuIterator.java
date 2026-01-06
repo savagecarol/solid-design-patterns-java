@@ -1,9 +1,9 @@
 package behaviourial.iterator.good;
-
 import java.util.List;
 
 public class MenuIterator implements Iterator {
     private List<String> items;
+
     private int index = 0;
 
     public MenuIterator(List<String> items) {

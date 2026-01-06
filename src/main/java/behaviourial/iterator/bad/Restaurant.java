@@ -36,6 +36,6 @@ public class Restaurant {
         // Customer directly accessing list
         for (String item : menu.getItems()) {
             System.out.println("Menu Item: " + item);
-        }
+        } // for loop
     }
 }
