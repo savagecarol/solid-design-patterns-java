@@ -7,6 +7,7 @@ public class Waiter {
 
     public void takeOrder(String order) {
         System.out.println("Waiter takes order: " + order);
+        // send it to mediator
         kitchen.prepareFood(order); // talk with kitchen to prepare food
         billing.generateBill(order);  // talk with billing directly
     }

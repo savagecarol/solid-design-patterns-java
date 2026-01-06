@@ -15,4 +15,10 @@ public class RestaurantMediatorImpl implements RestaurantMediator {
         kitchen.prepareFood(order);
         billing.generateBill(order);
     }
+
+
+    @Override
+    public void talkToChef(String order) {
+        kitchen.talkToChef(order);
+    }
 }

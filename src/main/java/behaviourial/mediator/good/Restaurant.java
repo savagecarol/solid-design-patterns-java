@@ -25,9 +25,12 @@ public class Restaurant {
         Billing billing = new Billing();
 
         RestaurantMediator mediator = new RestaurantMediatorImpl(kitchen, billing);
+        // passing all the classes
+
 
         Waiter waiter = new Waiter(mediator);
 
         waiter.takeOrder("Pizza");
+        waiter.talkToChef("sdfds");
     }
 }

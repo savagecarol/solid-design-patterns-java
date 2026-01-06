@@ -12,4 +12,9 @@ public class Waiter {
         System.out.println("Waiter takes order: " + order);
         mediator.placeOrder(order);
     }
+
+    public void talkToChef(String order) {
+        System.out.println("Waiter takes order: " + order);
+        mediator.talkToChef(order);
+    }
 }
