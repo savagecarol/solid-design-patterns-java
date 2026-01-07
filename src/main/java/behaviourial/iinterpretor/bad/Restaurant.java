@@ -6,7 +6,7 @@ package behaviourial.iinterpretor.bad;
  *  Convert human-like commands into meaningful actions.
  *
  *  story::
- *  2 Pizza AND 1 Coke
+ *  Pizza AND Coke
  *  Burger OR Pizza
  *
  * The system must interpret this text and understand:

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class OrderService implements OrderSubject {
 
-    private List<OrderObserver> observers = new ArrayList<>();
+    private List<OrderObserver> observers = new ArrayList<>(); // list of classes
 
     @Override
     public void addObserver(OrderObserver observer) {
@@ -17,7 +17,7 @@ public class OrderService implements OrderSubject {
         observers.remove(observer);
     }
 
-    @Override
+    @Override // we are callijng update function
     public void notifyObservers(String order) {
         for (OrderObserver observer : observers) {
             observer.update(order);

@@ -24,6 +24,8 @@ package behaviourial.iinterpretor.good;
  *      5. Burger , COKE , Pizza will implement Expression interface
  *
  *
+ *  pizza and burger
+ *  pizza or burger
  *
  */
 
@@ -34,9 +36,11 @@ public class Restaurant {
             Expression coke = new CokeExpression();
             Expression burger = new BurgerExpression();
 
+            // customer input
             Expression pizzaAndCoke = new AndExpression(pizza, coke);
             Expression burgerOrPizza = new OrExpression(burger, pizza);
             Expression burgerOrPizzaAndCoke = new AndExpression(new OrExpression(burger, pizza), coke);
+            Expression burgerAndPizzaAndCoke = new AndExpression(new AndExpression(burger, pizza), coke);
 
             System.out.println("Order 1:");
             pizzaAndCoke.interpret();
@@ -46,5 +50,8 @@ public class Restaurant {
 
             System.out.println("\nOrder 3:");
             burgerOrPizzaAndCoke.interpret();
+
+            System.out.println("\nOrder 4:");
+            burgerAndPizzaAndCoke.interpret();
         }
 }

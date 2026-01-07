@@ -1,7 +1,5 @@
 package behaviourial.iinterpretor.good;
 
-import java.util.Random;
-
 public class OrExpression implements Expression {
 
     private Expression left;

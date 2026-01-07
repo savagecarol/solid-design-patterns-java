@@ -2,8 +2,8 @@ package behaviourial.iinterpretor.good;
 
 public class AndExpression implements Expression {
 
-    private Expression left;
-    private Expression right;
+    private Expression left; // pizza
+    private Expression right; // burger
 
     public AndExpression(Expression left, Expression right) {
         this.left = left;
