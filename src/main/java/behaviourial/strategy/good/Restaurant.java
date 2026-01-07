@@ -39,5 +39,8 @@ public class Restaurant {
 
         billing.setPaymentStrategy(new CashPayment());
         billing.pay(300);
+
+        billing.setPaymentStrategy(new UpiPayment());
+        billing.pay(200);
     }
 }

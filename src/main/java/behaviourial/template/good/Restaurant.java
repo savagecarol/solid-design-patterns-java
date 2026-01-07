@@ -28,6 +28,6 @@ public class Restaurant {
         pizza.processOrder();
         System.out.println();
         FoodOrderTemplate burger = new BurgerOrder();
-        burger.processOrder();
-    }
+
+       burger.processOrder();    }
 }
