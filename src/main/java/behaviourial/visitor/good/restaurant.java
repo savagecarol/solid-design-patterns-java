@@ -28,11 +28,13 @@ public class restaurant {
 
     public static void main(String[] args) {
 
+        // food itema ==> FoodItem interface  --> callable function takes FoodVisitor
         FoodItem[] menu = {
             new Pizza(),
             new Burger()
         };
 
+        // three type of food visitor and each food visitor for food item
         FoodVisitor cookingTimeVisitor = new CookingTimeVisitor();
         FoodVisitor priceVisitor = new PriceVisitor();
         FoodVisitor caloriesVisitor = new CaloriesVisitor();
