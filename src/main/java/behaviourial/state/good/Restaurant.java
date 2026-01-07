@@ -33,7 +33,7 @@ public class Restaurant {
 
     public static void main(String[] args) {
 
-        OrderContext order = new OrderContext();
+        OrderContext order = new OrderContext(); // main object
         order.next(); // NEW -> COOKING
         order.next(); // COOKING -> READY
         order.next(); // READY -> DELIVERED
