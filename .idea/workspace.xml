@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f55531d9-86a5-4f28-834e-3df23115a976" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/OrderContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/OrderContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/OrderState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/OrderState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/state/good/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/OrderEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/OrderEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviourial/memento/good/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +86,13 @@
       <recent name="behaviourial.command.good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Restaurant">
-    <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.facade.bad.Restaurant" />
+  <component name="RunManager" selected="Application.Restaurant (2)">
+    <configuration name="Restaurant (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial.memento.bad.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.facade.bad.*" />
+          <option name="PATTERN" value="behaviourial.memento.bad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Restaurant (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.bad.Restaurant" />
+    <configuration name="Restaurant (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial.memento.good.Restaurant" />
       <module name="designpattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.composite.bad.*" />
+          <option name="PATTERN" value="behaviourial.memento.good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Restaurant (2)" />
+        <item itemvalue="Application.Restaurant (1)" />
         <item itemvalue="Application.Restaurant" />
         <item itemvalue="Application.Restaurant (5)" />
         <item itemvalue="Application.Restaurant (4)" />
-        <item itemvalue="Application.Restaurant (3)" />
-        <item itemvalue="Application.Restaurant (2)" />
       </list>
     </recent_temporary>
   </component>

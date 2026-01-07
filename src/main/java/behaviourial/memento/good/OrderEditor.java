@@ -12,6 +12,7 @@ public class OrderEditor {
     }
 
     public OrderMemento undo() {
-        return history.pop();
+         history.pop();
+         return history.peek();
     }
 }

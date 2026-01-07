@@ -42,23 +42,32 @@ public class Restaurant {
 
     public static void main(String[] args) {
 
-        Order order = new Order();
-        OrderEditor editor = new OrderEditor();
+        Order order = new Order(); // it is our simple order
+        OrderEditor editor = new OrderEditor(); // stack
 
-        order.update("Burger", false, false);
+        order.update("Burger", false, false); // burger
         editor.save(order.save()); // state :: 1 => to caretaker
         order.show();
+
+        // stack = [burger]
+
 
         order.update("Burger", true, false);
         editor.save(order.save()); // state :: 2 => to caretaker
         order.show();
 
+        // stack = [burger] , [burger , cheese]
+
         order.update("Burger", true, true);
         editor.save(order.save()); // state :: 3 => to caretaker
         order.show();
 
+        // stack = [burger] , [burger , cheese] , [burger , cheese , drink]
+
         System.out.println("\nUndo last change:");
         order.restore(editor.undo()); // state :: 2 => to caretaker we restored
         order.show();
+
+        // stack = [burger] , [burger , cheese]
     }
 }
